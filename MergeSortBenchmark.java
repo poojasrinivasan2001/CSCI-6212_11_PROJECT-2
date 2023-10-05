@@ -8,7 +8,7 @@ import java.util.Random;
 public class MergeSortBenchmark {
     public static void main(String[] args) {
         // Different values of n
-        int[] nValues = {10, 100, 1000, 10000, 100000,1000000};
+        int[] nValues = {100, 1000, 10000, 100000,1000000};
 
         // Creating a list of arrays
         List<int[]> arrayOfLists = new ArrayList<>();
