@@ -34,6 +34,7 @@ public class MergeSortBenchmark {
 
             long endTime = System.currentTimeMillis();
             int totalMergedCost = mergedSequence.stream().mapToInt(Integer::intValue).sum();
+            System.out.println("Cost = " + totalMergedCost);
             double executionTimeInSeconds = (endTime - startTime)/1000.0; // Convert to seconds
             System.out.println("n = " + array.length + ", Time Taken: " + executionTimeInSeconds + " seconds");
         }
